@@ -1,0 +1,27 @@
+# Chaves e Segredos (NUNCA devem ir para a imagem Docker)
+.env
+.env.*
+!.env.example
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Cache do Python e Ambientes Virtuais
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
